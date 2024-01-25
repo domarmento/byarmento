@@ -1,0 +1,65 @@
+body {
+    background-image: url('texture.png'); /* Replace with the actual path to your texture image */
+    background-repeat: repeat; /* Repeat the background image */
+    font-family: 'Courier New', Courier, monospace; /* Font style of a typewriter */
+    margin: 0; /* Remove default margin to ensure full coverage */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px; /* Set the maximum height of the logo */
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #000; /* Set the color of the menu icon to black */
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    background-color: #000; /* Set the background color of the dropdown menu to black */
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px;
+}
+
+.clickable-image {
+    max-width: 80%; /* Set the maximum width of the image */
+    height: auto;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    /* Add more styles for the image as needed */
+}
+
+h1 {
+    margin-top: 20px; /* Add margin to separate the title from the image */
+}
